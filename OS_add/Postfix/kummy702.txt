@@ -1,0 +1,42 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 3:15:32 ago on Tue 24 Sep 2024 11:21:51 PM UTC.
+postfix-2:3.3.1-8.el8.x86_64 : Postfix Mail Transport Agent
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : postfix = 2:3.3.1-8.el8
+
+postfix-2:3.3.1-9.el8.x86_64 : Postfix Mail Transport Agent
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : postfix = 2:3.3.1-9.el8
+
+postfix-2:3.3.1-12.el8.x86_64 : Postfix Mail Transport Agent
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : postfix = 2:3.3.1-12.el8
+
+postfix-2:3.3.1-12.el8_3.1.x86_64 : Postfix Mail Transport Agent
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : postfix = 2:3.3.1-12.el8_3.1
+
+postfix-2:3.5.8-1.el8.x86_64 : Postfix Mail Transport Agent
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : postfix = 2:3.5.8-1.el8
+
+postfix-2:3.5.8-2.el8.x86_64 : Postfix Mail Transport Agent
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : postfix = 2:3.5.8-2.el8
+
+postfix-2:3.5.8-4.el8.x86_64 : Postfix Mail Transport Agent
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : postfix = 2:3.5.8-4.el8
+
+postfix-2:3.5.8-7.el8.x86_64 : Postfix Mail Transport Agent
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : postfix = 2:3.5.8-7.el8
+

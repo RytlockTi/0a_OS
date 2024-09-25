@@ -1,0 +1,152 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 1:54:50 ago on Tue 24 Sep 2024 04:16:13 AM UTC.
+NetworkManager-config-server-1:1.14.0-14.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.14.0-14.el8
+
+NetworkManager-config-server-1:1.20.0-3.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.20.0-3.el8
+
+NetworkManager-config-server-1:1.20.0-5.el8_1.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.20.0-5.el8_1
+
+NetworkManager-config-server-1:1.22.8-4.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.22.8-4.el8
+
+NetworkManager-config-server-1:1.22.8-5.el8_2.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.22.8-5.el8_2
+
+NetworkManager-config-server-1:1.26.0-8.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.26.0-8.el8
+
+NetworkManager-config-server-1:1.26.0-9.el8_3.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.26.0-9.el8_3
+
+NetworkManager-config-server-1:1.26.0-12.el8_3.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.26.0-12.el8_3
+
+NetworkManager-config-server-1:1.26.0-13.el8_3.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.26.0-13.el8_3
+
+NetworkManager-config-server-1:1.26.0-14.el8_3.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.26.0-14.el8_3
+
+NetworkManager-config-server-1:1.30.0-7.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.30.0-7.el8
+
+NetworkManager-config-server-1:1.30.0-9.el8_4.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.30.0-9.el8_4
+
+NetworkManager-config-server-1:1.30.0-10.el8_4.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.30.0-10.el8_4
+
+NetworkManager-config-server-1:1.30.0-13.el8_4.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.30.0-13.el8_4
+
+NetworkManager-config-server-1:1.32.10-4.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.32.10-4.el8
+
+NetworkManager-config-server-1:1.32.10-5.el8_5.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.32.10-5.el8_5
+
+NetworkManager-config-server-1:1.36.0-4.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.36.0-4.el8
+
+NetworkManager-config-server-1:1.36.0-7.el8_6.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.36.0-7.el8_6
+
+NetworkManager-config-server-1:1.36.0-9.el8_6.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.36.0-9.el8_6
+
+NetworkManager-config-server-1:1.40.0-1.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.0-1.el8
+
+NetworkManager-config-server-1:1.40.0-2.el8_7.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.0-2.el8_7
+
+NetworkManager-config-server-1:1.40.0-5.el8_7.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.0-5.el8_7
+
+NetworkManager-config-server-1:1.40.0-6.el8_7.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.0-6.el8_7
+
+NetworkManager-config-server-1:1.40.16-1.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.16-1.el8
+
+NetworkManager-config-server-1:1.40.16-3.el8_8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.16-3.el8_8
+
+NetworkManager-config-server-1:1.40.16-4.el8_8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.16-4.el8_8
+
+NetworkManager-config-server-1:1.40.16-9.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.16-9.el8
+
+NetworkManager-config-server-1:1.40.16-13.el8_9.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.16-13.el8_9
+
+NetworkManager-config-server-1:1.40.16-15.el8.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.16-15.el8
+
+NetworkManager-config-server-1:1.40.16-15.el8_9.noarch : NetworkManager config file for "server-like" defaults
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : NetworkManager-config-server = 1:1.40.16-15.el8_9
+

@@ -1,0 +1,17 @@
+在linux 8.8上，libwayland-client 是 Wayland 显示服务器协议的一部分，提供了客户端与 Wayland 合成器（compositor）进行通信的库。Wayland 是一种用于 Unix 类系统的显示服务器协议，目的是成为 X11 的替代品，它被设计得更简单、更易于开发和维护。
+
+libwayland-client 库包含了用于创建和操作 Wayland 客户端应用程序的 API 函数。客户端可以使用这些函数来与 Wayland 服务器进行通信，执行如创建窗口、处理输入事件等操作。它是 Wayland 协议实现的一部分，与 libwayland-server 库相对应，后者用于编写 Wayland 合成器。
+
+如果你需要安装 libwayland-client，可以使用 Linux 发行版的包管理器来安装。例如，在基于 Debian 的系统（如 Ubuntu）上，可以使用以下命令安装：
+
+bash
+sudo apt-get install libwayland-client0
+而在基于 Red Hat 的系统（如 CentOS 或 Fedora）上，可以使用以下命令安装：
+
+bash
+sudo dnf install libwayland-client
+或者使用 yum：
+
+bash
+sudo yum install libwayland-client
+这个库是 Wayland 客户端开发的基础，使得开发者能够创建利用 Wayland 协议的图形应用程序。

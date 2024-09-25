@@ -1,0 +1,13 @@
+在linux 8.8上，libglvnd（GL Vendor-Neutral Dispatch library）是一个实现OpenGL API调用的供应商中立的派发层。它允许多个不同供应商的OpenGL驱动程序在同一文件系统上共存，并且在运行时动态决定每个API调用应发送到哪个供应商。
+
+libglvnd的核心在于它的分层结构，包括GLX和EGL模块负责窗口系统的API，以及libGLdispatch负责根据当前EGL或GLX渲染上下文将OpenGL函数派发给正确的供应商库 
+ 。它广泛应用于需要跨平台、高性能图形处理的场合，如游戏开发、虚拟化环境、多显示器配置以及软件渲染和硬件加速之间的无缝切换。
+
+如果你需要安装 libglvnd 库，可以使用Linux的包管理器进行安装。例如，在基于Red Hat的系统上，可以使用以下命令安装：
+
+bash
+sudo dnf install libglvnd
+或者使用 yum：
+
+bash
+sudo yum install libglvnd

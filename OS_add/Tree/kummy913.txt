@@ -1,0 +1,7 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 1:27:53 ago on Wed 25 Sep 2024 07:27:36 AM UTC.
+tree-1.7.0-15.el8.x86_64 : File system tree viewer
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : tree = 1.7.0-15.el8
+

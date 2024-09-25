@@ -1,0 +1,38 @@
+在Linux 8.8中，python-hwdata 是一个Python库，提供了对 hwdata 数据库的访问接口。这个数据库包含了大量关于硬件设备的信息，特别是 USB 和 PCI 设备的详细描述。通过使用 python-hwdata，你可以从Python程序中检索这些硬件设备的相关信息，如制造商、产品ID、序列号等。
+
+安装方法
+你可以通过Python的包管理工具 pip 来安装 python-hwdata：
+
+bash
+pip install python-hwdata
+安装完成后，你可以通过 import hwdata 来在你的Python脚本中使用这个库。
+
+使用示例
+以下是使用 python-hwdata 来获取USB设备信息的示例代码：
+
+python
+import hwdata
+
+# 初始化HardwareData对象
+hw = hwdata.HardwareData()
+
+# 获取所有USB设备列表
+usb_devices = hw.get_usb_devices()
+
+# 遍历每个USB设备，打印其基本信息
+for device in usb_devices:
+    print("设备名称:", device.name)
+    print("制造商:", device.vendor)
+    print("产品ID:", device.product_id)
+    print("序列号:", device.serial_number)
+    print("\n")
+这段代码展示了如何使用 python-hwdata 库来读取连接至系统的USB设备列表及其详细描述。
+
+核心功能
+设备信息获取：可以获取USB和PCI设备的详细信息。
+实时监控：支持对设备状态的实时监控。
+数据过滤与搜索：提供灵活的数据过滤与搜索机制。
+高级功能
+设备信息的过滤与搜索：支持基于特定条件的数据筛选。
+数据分析和可视化：可以与数据分析库（如Pandas）和可视化库（如Matplotlib）结合使用，进行数据的深度分析和可视化展示。
+python-hwdata 是硬件管理和监控领域中非常有用的一款工具，它使得从Python程序中读取和处理硬件设备信息变得简单快捷。

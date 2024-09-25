@@ -1,0 +1,7 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 2:02:41 ago on Tue 24 Sep 2024 04:16:13 AM UTC.
+ftp-0.17-78.el8.x86_64 : The standard UNIX FTP (File Transfer Protocol) client
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : ftp = 0.17-78.el8
+

@@ -1,0 +1,8 @@
+在Linux 8.8上，rhn-check 是一个客户端程序，它连接到 Red Hat Network（RHN）后端服务器并检索与此系统排队动作相关的信息。该脚本读取 /etc/sysconfig/rhn/systemid 中的数字服务器ID，并使用该ID将机器标识给 Red Hat Network。成功认证后，rhn-check 将开始按顺序处理排队的动作。
+
+rhn-check 可以处理的动作类型包括：
+
+refresh：刷新此机器的硬件或软件配置文件与 Red Hat Network。
+new_systemid：此动作用于更新机器的数字系统ID。
+update_packages：触发 rhn-check 运行软件包更新列表，该列表是从 Red Hat Network 排队的。
+这些操作使系统能够与 Red Hat Network 同步并执行如系统更新、安全更新等维护任务。

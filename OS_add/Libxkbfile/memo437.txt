@@ -1,0 +1,15 @@
+在Linux 8.8上，libxkbfile 是用于读取和操作XKB（X11键盘配置扩展）描述文件的库。它提供了一个接口，允许程序与XKB键位映射和布局进行交互。libxkbfile 是 X.Org 项目的一部分，用于支持更复杂的键盘配置需求。
+
+如果需要安装 libxkbfile，可以使用 Linux 发行版的包管理器进行安装。例如，在基于 Debian 的系统上，可以使用以下命令安装：
+
+bash
+sudo apt-get install libxkbfile1
+在基于 Red Hat 的系统上，可以使用以下命令安装：
+
+bash
+sudo dnf install libxkbfile
+或者使用 yum：
+
+bash
+sudo yum install libxkbfile
+libxkbfile 对于需要处理键盘布局和键位映射的应用程序开发者来说是有用的，特别是在开发国际化软件时。

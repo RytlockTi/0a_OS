@@ -1,0 +1,22 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 2:30:24 ago on Tue 24 Sep 2024 04:16:13 AM UTC.
+gdbm-devel-1:1.18-1.el8.i686 : Development libraries and header files for the gdbm library
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : gdbm-devel = 1:1.18-1.el8
+
+gdbm-devel-1:1.18-1.el8.x86_64 : Development libraries and header files for the gdbm library
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : gdbm-devel = 1:1.18-1.el8
+
+gdbm-devel-1:1.18-2.el8.i686 : Development libraries and header files for the gdbm library
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : gdbm-devel = 1:1.18-2.el8
+
+gdbm-devel-1:1.18-2.el8.x86_64 : Development libraries and header files for the gdbm library
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : gdbm-devel = 1:1.18-2.el8
+

@@ -1,0 +1,18 @@
+在Linux 8.8上，pcsc-lite-libs是PC/SC Lite库的一部分，它是一个实现了PC/SC（个人计算机/智能卡）标准的开源软件包。PC/SC Lite提供了一组API，允许访问智能卡和读卡器，并且它与Windows中的SCard API兼容。这意味着为Windows编写的智能卡应用程序通常可以在Linux上运行而无需修改，只要它们不依赖于Windows特定的功能。
+
+pcsc-lite-libs主要包括以下组件：
+
+libpcsclite.so：PC/SC Lite的主要库文件，提供了API的实现。
+pcscd：守护进程，作为服务器处理对智能卡读卡器的请求。
+这个库对于任何需要与智能卡交互的应用程序都是必需的，比如需要处理支付卡、门禁卡或安全令牌的应用程序。
+
+安装pcsc-lite-libs通常也会安装pcscd守护进程，它运行在后台，管理对智能卡读卡器的访问。如果需要，可以使用系统的包管理器来安装pcsc-lite-libs：
+
+bash
+sudo dnf install pcsc-lite-libs
+安装后，可能需要启动pcscd服务：
+
+bash
+sudo systemctl start pcscd
+sudo systemctl enable pcscd
+这样，任何需要智能卡支持的应用程序都可以使用pcsc-lite-libs来与智能卡进行通信了。

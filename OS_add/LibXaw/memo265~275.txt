@@ -1,0 +1,38 @@
+在linux 8.8上，libXaw 是指 X Athena 窗口部件库（X11 Athena Widget library），它提供了第二版 Xaw，这是 Athena Widgets 工具包的一个版本，主要被传统的 X 应用程序所广泛使用。这个版本是最常见的，因为版本6已被认为是过时的，而版本8虽然增加了 Xprint 支持，但不被广泛支持和使用。通常情况下，建议使用更现代的工具包，如 GTK+。
+
+如果你需要安装 libXaw 库，可以使用Linux的包管理器进行安装。例如，在基于Red Hat的系统上，可以使用以下命令安装：
+
+bash
+sudo dnf install libXaw
+或者使用 yum：
+
+bash
+sudo yum install libXaw
+在基于Debian的系统上，可以使用以下命令安装：
+
+bash
+sudo apt-get install libxaw7
+这个库是 X Athena Widgets 客户端开发的基础，使得开发者能够创建利用 Athena Widgets 的应用程序。
+
+
+
+在Linux 8.8上，libXpm 是一个用于处理 X PixMap（XPM）图像文件格式的库。XPM 是一种简单、可读性好的图像格式，常用于传统的 X 应用程序中。libXpm 提供了读取、写入和显示 XPM 文件的功能。
+
+libXpm 的主要特点包括：
+
+提供了 XPM 格式的运行时支持。
+允许开发者在他们的应用程序中使用 XPM 图像。
+支持图像的基本操作，如读取、写入和显示。
+安装 libXpm 的开发文件（通常称为 libxpm-dev 或类似的包名）通常是为了开发需要使用 XPM 格式的应用程序。在基于 Debian 的系统（如 Ubuntu）中，可以使用以下命令安装：
+
+bash
+sudo apt-get install libxpm-dev
+而在基于 Red Hat 的系统（如 CentOS 或 Fedora）中，可以使用以下命令安装：
+
+bash
+sudo dnf install libXpm-devel
+或者使用 yum：
+
+bash
+sudo yum install libXpm-devel
+这个库是处理 XPM 图像文件的基础工具，使得开发者能够创建和操作使用 XPM 格式的图形资源。

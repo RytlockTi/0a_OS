@@ -1,0 +1,27 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 1:30:18 ago on Wed 25 Sep 2024 07:27:36 AM UTC.
+wpa_supplicant-1:2.7-1.el8.x86_64 : WPA/WPA2/IEEE 802.1X Supplicant
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : wpa_supplicant = 1:2.7-1.el8
+
+wpa_supplicant-1:2.9-2.el8.x86_64 : WPA/WPA2/IEEE 802.1X Supplicant
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : wpa_supplicant = 1:2.9-2.el8
+
+wpa_supplicant-1:2.9-2.el8_3.1.x86_64 : WPA/WPA2/IEEE 802.1X Supplicant
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : wpa_supplicant = 1:2.9-2.el8_3.1
+
+wpa_supplicant-1:2.9-5.el8.x86_64 : WPA/WPA2/IEEE 802.1X Supplicant
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : wpa_supplicant = 1:2.9-5.el8
+
+wpa_supplicant-1:2.10-1.el8.x86_64 : WPA/WPA2/IEEE 802.1X Supplicant
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : wpa_supplicant = 1:2.10-1.el8
+

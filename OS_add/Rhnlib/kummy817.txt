@@ -1,0 +1,17 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 0:53:38 ago on Wed 25 Sep 2024 07:27:36 AM UTC.
+rhnlib-2.8.6-7.module+el8+2754+6a08e8f4.noarch : Python libraries for the Spacewalk project
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : rhnlib = 2.8.6-7.module+el8+2754+6a08e8f4
+
+rhnlib-2.8.6-8.module+el8.0.0.z+3494+e6f475f6.noarch : Python libraries for the Spacewalk project
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : rhnlib = 2.8.6-8.module+el8.0.0.z+3494+e6f475f6
+
+rhnlib-2.8.6-8.module+el8.1.0+3455+3ddf2832.noarch : Python libraries for the Spacewalk project
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : rhnlib = 2.8.6-8.module+el8.1.0+3455+3ddf2832
+

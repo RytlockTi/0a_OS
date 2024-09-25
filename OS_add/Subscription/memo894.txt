@@ -1,0 +1,18 @@
+在Linux 8.8上，subscription-manager-rhsm 是指 Red Hat Subscription Manager，这是用于管理 Red Hat 订阅的工具。它允许用户注册系统、查询订阅信息、管理软件仓库以及更新系统。subscription-manager 工具是命令行界面，而 rhsm 是其图形用户界面的缩写。
+
+通过使用 Subscription Manager，您可以将您的系统注册到 Red Hat Customer Portal，从而能够接收系统更新和访问 Red Hat 提供的软件包库。这包括对 RHEL（Red Hat Enterprise Linux）及其他 Red Hat 产品的订阅管理。
+
+要使用 subscription-manager 进行系统注册，通常需要提供 Red Hat 帐户的用户名和密码，或者使用激活码和机构 ID。注册后，您可以使用以下命令来管理订阅：
+
+subscription-manager register：注册系统。
+subscription-manager attach：附加订阅。
+subscription-manager refresh：刷新系统信息。
+例如，使用用户名和密码注册的命令如下：
+
+bash
+sudo subscription-manager register --username <your-username> --password <your-password>
+或者，使用激活码注册的命令如下：
+
+bash
+sudo subscription-manager register --activation-key <activation-key> --organization <organization-id>
+注册成功后，您可以使用 subscription-manager 来附加订阅，以便访问和使用 Red Hat 提供的软件和服务。

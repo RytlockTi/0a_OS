@@ -1,0 +1,13 @@
+在Linux 8.8上，libwayland-server 是 Wayland 显示服务器协议的核心库之一，它提供了服务端（合成器compositor）与客户端（如应用程序）进行通信的库。Wayland 旨在成为 X11 的替代品，它被设计为更简单、更易于开发和维护。
+
+libwayland-server 库包含了用于编写 Wayland 合成器的 API 函数。合成器可以使用这些函数来与 Wayland 客户端进行通信，管理窗口、渲染、输入事件等。它是 Wayland 协议实现的一部分，与 libwayland-client 库相对应，后者用于编写 Wayland 客户端应用程序。
+
+如果你需要安装 libwayland-server，可以使用 Linux 发行版的包管理器来安装。例如，在基于 Red Hat 的系统上，可以使用以下命令安装：
+
+bash
+sudo dnf install libwayland-server
+或者在基于 Debian 的系统上，可以使用以下命令安装：
+
+bash
+sudo apt-get install libwayland-server0
+这个库是 Wayland 合成器开发的基础，使得开发者能够创建利用 Wayland 协议的显示服务器。

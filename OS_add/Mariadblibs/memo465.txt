@@ -1,0 +1,9 @@
+在Linux 8.8上，mariadb-libs是MariaDB数据库的客户端库，它提供了与MariaDB数据库进行交互的功能，可以用于开发应用程序或者连接到MariaDB服务器。这些库包含了一组C语言函数和API，可以用于连接到MariaDB服务器、执行SQL查询、获取查询结果等操作。
+
+通过使用这些库，开发人员可以方便地在应用程序中使用MariaDB数据库。mariadb-libs支持的功能包括连接管理、SQL查询执行、事务处理、数据库管理、表管理以及安全性相关的操作，如加密连接和身份验证。
+
+如果需要安装或更新mariadb-libs，可以使用系统的包管理器，如dnf或yum。例如，在基于Red Hat的系统中，可以使用以下命令：
+
+bash
+sudo dnf install mariadb-libs
+或者，如果需要手动下载和安装，可以从MariaDB的官方网站下载相应的RPM包，并使用rpm命令进行安装。

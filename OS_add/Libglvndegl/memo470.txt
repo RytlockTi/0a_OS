@@ -1,0 +1,15 @@
+在Linux 8.8上，mesa-libglapi 是 Mesa 3D Graphics Library 的一部分，它提供了对 OpenGL API 的实现。Mesa 是一个开源的图形库，提供了对 OpenGL、OpenGL ES、Vulkan 和其他图形相关 API 的支持。libglapi 库是 Mesa 的一部分，主要负责分派所有的 OpenGL 函数调用。它被设计为由 libgles1-mesa 和 libgles2-mesa 等库主要使用。
+
+如果需要安装 mesa-libglapi，可以使用 Linux 发行版的包管理器进行安装。例如，在基于 Debian 的系统上，可以使用以下命令安装：
+
+bash
+sudo apt-get install libglapi-mesa
+在基于 Red Hat 的系统上，可以使用以下命令安装：
+
+bash
+sudo dnf install mesa-libglapi
+或者使用 yum：
+
+bash
+sudo yum install mesa-libglapi
+这个库是开发需要使用 OpenGL API 的图形应用程序时的有用工具。

@@ -1,0 +1,17 @@
+在linux 8.8上，libdrm 是一个用户空间库，提供了用于访问Direct Rendering Manager（DRM）的接口。DRM是Linux内核中的一个组件，它提供了对图形硬件的直接访问，允许多个客户端（如应用程序或驱动程序）共享访问图形硬件资源，如GPU。libdrm 为DRM提供的ioctl接口提供了包装函数，使得在用户空间的程序可以更容易地与DRM内核驱动进行交互。
+
+libdrm 库包含多个与特定图形硬件相关的组件，例如libdrm_intel.so、libdrm_nouveau.so、libdrm_radeon.so 和 libdrm_amdgpu.so，它们提供了针对特定硬件的扩展功能。它通常被图形驱动程序使用，例如Mesa DRI驱动、X驱动、libva和类似的项目。
+
+如果你需要安装 libdrm 库，可以使用Linux的包管理器进行安装。例如，在基于Debian的系统（如Ubuntu）上，可以使用以下命令安装：
+
+bash
+sudo apt-get install libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2
+在基于RPM的系统（如Fedora或CentOS）上，可以使用以下命令安装：
+
+bash
+sudo dnf install libdrm
+或者使用 yum：
+
+bash
+sudo yum install libdrm
+libdrm 对于开发需要使用 DRM 接口的图形应用程序的开发者来说是必需的。

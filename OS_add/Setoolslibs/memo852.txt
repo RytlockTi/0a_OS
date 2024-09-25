@@ -1,0 +1,18 @@
+在Linux 8.8上，setools-libs 是 SELinux 工具集中的一部分，它包含了一系列用于 SELinux 策略分析的支持库。这些库提供了 SELinux 策略分析所需的核心功能，包括但不限于：
+
+libapol：策略分析库。
+libpoldiff：语义策略差异库。
+libqpol：抽象策略内部的库。
+libseaudit：解析和过滤 SELinux 审计消息的库。
+libsefs：SELinux 文件上下文库。
+这些库通常被 SELinux 的图形和命令行工具所使用，如 apol、sediff、seaudit 和 sechecker 等。它们对于 SELinux 管理员来说非常有用，因为它们可以帮助编写、管理和报告 SELinux 策略。
+
+如果您需要在 Linux 8.8 系统上安装 setools-libs，可以使用系统的包管理器进行安装。例如，在基于 Red Hat 的系统中，可以使用以下命令：
+
+bash
+sudo yum install setools-libs
+或者，如果您使用的是 Fedora 或者类似的系统，可以使用 dnf：
+
+bash
+sudo dnf install setools-libs
+这些库是 SELinux 策略开发和管理的基础组件，为 SELinux 提供了强大的分析和调试能力。

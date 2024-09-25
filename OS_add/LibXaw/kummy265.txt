@@ -1,0 +1,12 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 3:23:43 ago on Tue 24 Sep 2024 04:16:13 AM UTC.
+libXaw-1.0.13-10.el8.i686 : X Athena Widget Set
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : libXaw = 1.0.13-10.el8
+
+libXaw-1.0.13-10.el8.x86_64 : X Athena Widget Set
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : libXaw = 1.0.13-10.el8
+

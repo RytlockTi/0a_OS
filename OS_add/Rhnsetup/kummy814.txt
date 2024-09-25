@@ -1,0 +1,17 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 0:14:37 ago on Wed 25 Sep 2024 07:27:36 AM UTC.
+rhn-check-2.8.16-12.module+el8+2754+6a08e8f4.x86_64 : Check for RHN actions
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : rhn-check = 2.8.16-12.module+el8+2754+6a08e8f4
+
+rhn-check-2.8.16-13.module+el8.0.0.z+3494+e6f475f6.x86_64 : Check for RHN actions
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : rhn-check = 2.8.16-13.module+el8.0.0.z+3494+e6f475f6
+
+rhn-check-2.8.16-13.module+el8.1.0+3455+3ddf2832.x86_64 : Check for RHN actions
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : rhn-check = 2.8.16-13.module+el8.1.0+3455+3ddf2832
+

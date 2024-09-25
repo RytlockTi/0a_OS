@@ -1,0 +1,142 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 1:40:51 ago on Tue 24 Sep 2024 07:43:54 AM UTC.
+mesa-libglapi-18.3.1-2.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 18.3.1-2.el8
+
+mesa-libglapi-18.3.1-2.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 18.3.1-2.el8
+
+mesa-libglapi-18.3.1-5.el8_0.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 18.3.1-5.el8_0
+
+mesa-libglapi-18.3.1-5.el8_0.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 18.3.1-5.el8_0
+
+mesa-libglapi-19.1.4-2.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 19.1.4-2.el8
+
+mesa-libglapi-19.1.4-2.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 19.1.4-2.el8
+
+mesa-libglapi-19.1.4-3.el8_1.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 19.1.4-3.el8_1
+
+mesa-libglapi-19.1.4-3.el8_1.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 19.1.4-3.el8_1
+
+mesa-libglapi-19.3.4-2.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 19.3.4-2.el8
+
+mesa-libglapi-19.3.4-2.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 19.3.4-2.el8
+
+mesa-libglapi-20.1.4-1.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 20.1.4-1.el8
+
+mesa-libglapi-20.1.4-1.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 20.1.4-1.el8
+
+mesa-libglapi-20.3.3-2.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 20.3.3-2.el8
+
+mesa-libglapi-20.3.3-2.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 20.3.3-2.el8
+
+mesa-libglapi-21.1.5-1.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 21.1.5-1.el8
+
+mesa-libglapi-21.1.5-1.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 21.1.5-1.el8
+
+mesa-libglapi-21.3.4-1.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 21.3.4-1.el8
+
+mesa-libglapi-21.3.4-1.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 21.3.4-1.el8
+
+mesa-libglapi-22.1.5-2.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 22.1.5-2.el8
+
+mesa-libglapi-22.1.5-2.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 22.1.5-2.el8
+
+mesa-libglapi-22.3.0-2.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 22.3.0-2.el8
+
+mesa-libglapi-22.3.0-2.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 22.3.0-2.el8
+
+mesa-libglapi-23.1.4-1.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 23.1.4-1.el8
+
+mesa-libglapi-23.1.4-1.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 23.1.4-1.el8
+
+mesa-libglapi-23.1.4-2.el8.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 23.1.4-2.el8
+
+mesa-libglapi-23.1.4-2.el8.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 23.1.4-2.el8
+
+mesa-libglapi-23.1.4-3.el8_10.i686 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 23.1.4-3.el8_10
+
+mesa-libglapi-23.1.4-3.el8_10.x86_64 : Mesa shared glapi
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : mesa-libglapi = 23.1.4-3.el8_10
+

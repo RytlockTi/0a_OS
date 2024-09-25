@@ -1,0 +1,12 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 3:20:50 ago on Tue 24 Sep 2024 07:43:54 AM UTC.
+libgudev-232-4.el8.i686 : GObject-based wrapper library for libudev
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : libgudev1 = 232-4.el8
+
+libgudev-232-4.el8.x86_64 : GObject-based wrapper library for libudev
+Repo        : rhel-8-baseos-rhui-rpms
+Matched from:
+Provide    : libgudev1 = 232-4.el8
+

@@ -1,0 +1,62 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 0:08:49 ago on Wed 25 Sep 2024 02:42:36 AM UTC.
+pulseaudio-libs-11.1-22.el8.i686 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 11.1-22.el8
+
+pulseaudio-libs-11.1-22.el8.x86_64 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 11.1-22.el8
+
+pulseaudio-libs-11.1-23.el8.i686 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 11.1-23.el8
+
+pulseaudio-libs-11.1-23.el8.x86_64 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 11.1-23.el8
+
+pulseaudio-libs-13.99.1-1.el8.i686 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 13.99.1-1.el8
+
+pulseaudio-libs-13.99.1-1.el8.x86_64 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 13.99.1-1.el8
+
+pulseaudio-libs-14.0-2.el8.i686 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 14.0-2.el8
+
+pulseaudio-libs-14.0-2.el8.x86_64 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 14.0-2.el8
+
+pulseaudio-libs-14.0-3.el8_6.i686 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 14.0-3.el8_6
+
+pulseaudio-libs-14.0-3.el8_6.x86_64 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 14.0-3.el8_6
+
+pulseaudio-libs-14.0-4.el8.i686 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 14.0-4.el8
+
+pulseaudio-libs-14.0-4.el8.x86_64 : Libraries for PulseAudio clients
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : pulseaudio-libs = 14.0-4.el8
+

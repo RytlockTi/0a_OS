@@ -1,0 +1,40 @@
+在Linux 8.8上，python-ipaddress 是 Python 的标准库模块之一，它提供了一组用于创建、操作和验证 IPv4 和 IPv6 地址及其网络的工具。这个模块是在 Python 3.3 版本中引入的，用于替代旧的 socket 库中的一些 IP 地址相关功能。
+
+ipaddress 模块包含以下几个主要组件：
+
+IPv4Address 和 IPv6Address：分别用于表示单个 IPv4 和 IPv6 地址的对象。
+
+IPv4Network 和 IPv6Network：用于表示 IPv4 和 IPv6 网络的对象，可以包含一个或多个 IP 地址。
+
+IPv4Interface 和 IPv6Interface：用于表示网络接口的对象，通常包括一个 IP 地址和一个关联的网络。
+
+使用 ipaddress 模块，你可以执行以下操作：
+
+解析和验证 IP 地址和网络。
+确定 IP 地址是否属于特定的网络。
+检查 IP 地址是否是私有的、环回的、链接本地的或全局的。
+计算网络掩码和主机掩码。
+迭代网络中的所有可用主机地址。
+以下是一些使用 ipaddress 模块的示例代码：
+
+python
+import ipaddress
+
+# 创建 IPv4 地址对象
+ipv4_address = ipaddress.ip_address('192.168.1.1')
+print(f'IPv4 Address: {ipv4_address}')
+
+# 创建 IPv4 网络对象
+ipv4_network = ipaddress.ip_network('192.168.1.0/24')
+print(f'IPv4 Network: {ipv4_network}')
+
+# 检查地址是否在网络中
+if ipv4_address in ipv4_network:
+    print(f'{ipv4_address} is in {ipv4_network}')
+else:
+    print(f'{ipv4_address} is not in {ipv4_network}')
+
+# 迭代网络中的主机地址
+for ip in ipv4_network.hosts():
+    print(ip)
+ipaddress 模块是 Python 标准库的一部分，因此通常不需要单独安装。它在处理网络配置、网络诊断工具或其他需要 IP 地址计算和验证的应用程序时非常有用。

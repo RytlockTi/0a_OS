@@ -1,0 +1,30 @@
+在Linux 8.8上，pyxattr 是一个Python扩展模块，它提供了访问文件系统对象的扩展属性的功能。这些扩展属性允许用户为文件、目录、符号链接等存储额外的信息，如文件的MIME类型、作者信息等。这种功能在某些操作系统中可用，例如Linux和MacOS。
+
+pyxattr模块允许你列出、获取、设置和删除文件的扩展属性。它支持Python 3.7及以上版本，包括PyPy版本，并且在Linux的XFS、ext2/ext3/ext4文件系统上进行了测试。
+
+以下是如何在Python程序中使用pyxattr的基本示例：
+
+python
+import xattr
+
+# 获取文件的所有扩展属性
+attrs = xattr.listxattr("file.txt")
+print(attrs)
+
+# 获取特定扩展属性的值
+mime_type = xattr.getxattr("file.txt", "user.mime_type")
+print(mime_type)
+
+# 设置新的扩展属性
+xattr.setxattr("file.txt", "user.comment", "Simple text file")
+
+# 删除扩展属性
+xattr.removexattr("file.txt", "user.comment")
+要安装pyxattr，你可以使用pip：
+
+bash
+pip install pyxattr
+或者，在Debian系列的系统中，你可以使用：
+
+bash
+sudo apt install python3-pyxattr

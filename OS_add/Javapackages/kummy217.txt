@@ -1,0 +1,7 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 3:12:55 ago on Tue 24 Sep 2024 04:16:13 AM UTC.
+javapackages-tools-5.3.0-1.module+el8+2447+6f56d9a6.noarch : Macros and scripts for Java packaging support
+Repo        : rhel-8-appstream-rhui-rpms
+Matched from:
+Provide    : javapackages-tools = 5.3.0-1.module+el8+2447+6f56d9a6
+

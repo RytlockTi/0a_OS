@@ -1,0 +1,15 @@
+在Linux 8.8上，libxshmfence 是一个提供共享内存栅栏（fences）同步机制的库，用于在 X 服务器和直接渲染客户端之间进行同步。它为 X SyncFence 对象提供了一个基于 CPU 的同步原语，这些对象可以通过文件描述符传递在进程间共享。libxshmfence 库包含 xshmfence 共享库，它使用 Linux 的 futex 系统调用来实现跨进程同步。它提供了一种机制，允许一个进程通知另一个进程某个事件已经发生，例如缓冲区内容的更新
+。
+
+这个库主要被用于需要精确控制渲染操作和同步多个渲染实体的应用程序，如在 OpenGL 或 Vulkan 进行图形编程时确保 CPU 和 GPU 在正确的时间点同步操作。
+
+安装 libxshmfence 的命令取决于你使用的 Linux 发行版。例如，在基于 Red Hat 的系统（如 CentOS 8 或 Alma Linux 8）上，可以使用以下命令安装：
+
+bash
+sudo dnf -y install libxshmfence
+或者使用 yum：
+
+bash
+sudo yum -y install libxshmfence
+这些命令会安装 libxshmfence 库及其开发文件，以便开发者可以创建利用共享内存栅栏进行同步的应用程序
+。
