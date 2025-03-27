@@ -1,7 +1,0 @@
-Updating Subscription Management repositories.
-Last metadata expiration check: 2:19:56 ago on Tue 24 Sep 2024 11:21:51 PM UTC.
-mailcap-2.1.48-3.el8.noarch : Helper application and MIME type associations for file types
-Repo        : rhel-8-baseos-rhui-rpms
-Matched from:
-Provide    : mailcap = 2.1.48-3.el8
-

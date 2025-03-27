@@ -1,7 +1,0 @@
-Updating Subscription Management repositories.
-Last metadata expiration check: 0:54:48 ago on Wed 25 Sep 2024 07:27:36 AM UTC.
-rmt-2:1.5.3-13.el8.x86_64 : Provides certain programs with access to remote tape devices
-Repo        : rhel-8-baseos-rhui-rpms
-Matched from:
-Provide    : rmt = 2:1.5.3-13.el8
-

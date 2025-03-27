@@ -1,7 +1,0 @@
-Updating Subscription Management repositories.
-Last metadata expiration check: 3:20:15 ago on Tue 24 Sep 2024 11:21:51 PM UTC.
-procmail-3.22-47.el8.x86_64 : Mail processing program
-Repo        : rhel-8-appstream-rhui-rpms
-Matched from:
-Provide    : procmail = 3.22-47.el8
-

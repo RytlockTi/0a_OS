@@ -1,7 +1,0 @@
-Updating Subscription Management repositories.
-Last metadata expiration check: 1:32:04 ago on Wed 25 Sep 2024 07:27:36 AM UTC.
-xdg-utils-1.1.2-5.el8.noarch : Basic desktop integration functions
-Repo        : rhel-8-appstream-rhui-rpms
-Matched from:
-Provide    : xdg-utils = 1.1.2-5.el8
-
